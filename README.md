@@ -16,4 +16,4 @@ It allows you two view two images layered ontop of each other and use a slider t
 
 The python script takes the two image names as arguments to the command line, to run is simply
 
-python imgreveal.py <path-to-image-one> <path-to-image-two>
+python imgreveal.py "path-to-image-one" "path-to-image-two"
