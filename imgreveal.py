@@ -27,6 +27,8 @@ class ImgReveal(QtGui.QWidget):
     def __init__(self, bottom_image_path, top_image_path):
         super(ImgReveal, self).__init__()
 
+        self.setWindowTitle("ImgReveal")
+
         self.mouse_down = False
         self.width_mode = True
 
